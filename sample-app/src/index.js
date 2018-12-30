@@ -1,0 +1,23 @@
+import React from "react";
+import ReactDom from "react-dom";
+import App from "./App";
+import JokeApp from "./components/JokeApp";
+import ProductApp from "./components/ProductApp";
+import LoginApp from "./components/LoginApp";
+import ImageApp from "./components/ImageApp";
+import CounterApp from "./components/CounterApp";
+import ToDoApp from "./components/ToDoApp";
+import ConditionalApp from "./components/ConditionalApp";
+import ApiApp from "./components/ApiApp";
+import FormApp from "./components/FormApp";
+
+//ReactDom.render(<App />, document.getElementById("root"));
+//ReactDom.render(<JokeApp />, document.getElementById("root"));
+//ReactDom.render(<ProductApp />, document.getElementById("root"));
+//ReactDom.render(<LoginApp />, document.getElementById("root"));
+//ReactDom.render(<ImageApp />, document.getElementById("root"));
+//ReactDom.render(<CounterApp />, document.getElementById("root"));
+//ReactDom.render(<ToDoApp />, document.getElementById("root"));
+//ReactDom.render(<ConditionalApp />, document.getElementById("root"));
+//ReactDom.render(<ApiApp />, document.getElementById("root"));
+ReactDom.render(<FormApp />, document.getElementById("root"));
